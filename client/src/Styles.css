@@ -1,0 +1,244 @@
+body {
+    background-color: #E4FFF6;
+}
+
+.inputLabel {
+    font-size: large;
+    font-weight: 600;
+}
+
+.input {
+    background-color:mintcream;
+    color: #2A5346;
+    font-size: large;
+}
+
+.input:focus {
+    background-color:mintcream;
+    color: #2A5346;
+    font-size: large;
+    outline-color: none;
+    box-shadow: 0 0 0 0.2rem #7FFFD4;
+}
+
+.input:disabled {
+    background-color:#C4CCC8;
+    font-size: large;
+}
+
+.inputSubmit {
+    color: black;
+    background-color: #ADFFE4;
+    border-color: #42826D;
+}
+
+.inputSubmit:hover {
+    color: black;
+    background-color: #66CCAA;
+    border-color: #42826D;
+}
+
+.inputSubmit:focus {
+    color: black;
+    background-color: #ADFFE4;
+    border-color: #2A5346;
+    outline-color: none;
+    box-shadow: 0 0 0 0.2rem #7FFFD4;
+}
+
+.inputSubmit:active {
+    color: black;
+    background-color: #52A388 !important;
+    border-color: #42826D;
+}
+
+.inputSubmit:disabled {
+    color: black;
+    background-color: #7E8280;
+    border-color: #515352;
+}
+
+/* Profile: */
+
+.profileModalBody {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.profileModalBody::-webkit-scrollbar {
+    width: 20px;
+    background-color: transparent;
+}
+
+.profileModalBody::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.profileModalBody::-webkit-scrollbar-thumb {
+    background-color: #ADFFE4;
+    border-radius: 15px;
+}
+
+.profileModalBody::-webkit-scrollbar-thumb:hover {
+    background-color: #7fffd4;
+}
+
+.profileBackground {
+    background-color: #E4FFF6;
+}
+
+.profileHeaderAndFooter {
+    background-color: #7fffd4;
+}
+
+.profileButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    border-width: 2px;
+}
+
+.noBullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.previousGames {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+    border: #42826D solid 1px;
+    border-radius: 10px;
+}
+
+.profile-grid-item {
+    display: flex;
+    background-color:#7fffd4;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #2A5346;
+    font-family: "Lucida Handwriting", cursive, Arial;
+}
+
+/* Gameboard: */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-height: 375px;
+    max-width: 375px;
+}
+
+.grid-item {
+    display: flex;
+    background-color:#7fffd4;
+    height: 90px;
+    width: 90px;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 38px;
+    color: #2A5346;
+    font-family: "Lucida Handwriting", cursive, Arial;
+}
+
+.selected-item {
+    background-color:#66CCAA;
+    border: 2px solid #2A5346;
+}
+
+/* Wordlist: */
+
+.wordlist {
+    max-height: 340px;
+    overflow-y: auto;
+    padding: 1em;
+    background-color: #ADFFE4;
+    border: 1px solid #42826D;
+    border-radius: 15px;
+}
+
+.wordlist-item {
+    background-color: #eefcf7;
+    color: #162A24;
+    font-size: large;
+    border: 1px solid #42826D;
+}
+
+.wordlist::-webkit-scrollbar {
+    width: 20px;
+    background-color: transparent;
+}
+
+.wordlist::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.wordlist::-webkit-scrollbar-thumb {
+    background-color: #66CCAA;
+    border-radius: 15px;
+}
+
+.wordlist::-webkit-scrollbar-thumb:hover {
+    background-color: #52A388;
+}
+
+/* Timer and Score: */
+
+.infoCol {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.info {
+    padding: 0.25em;
+    background-color: #ADFFE4;
+    border: 1px solid #42826D;
+    border-radius: 3px;
+}
+
+/* ReadyButton: */
+
+.readyButton {
+    color: black;
+    background-color: #66CCAA;
+    border-color: #2A5346;
+}
+
+.readyButton:hover {
+    color: black;
+    background-color: #52A388;
+    border-color: #2A5346;
+}
+
+.readyButton:focus {
+    color: black;
+    background-color: #ADFFE4;
+    border-color: #2A5346;
+    outline-color: none;
+    box-shadow: 0 0 0 0.2rem #66CCAA;
+}
+
+.readyButton:active {
+    color: black;
+    background-color: #42826D !important;
+    border-color: #2A5346;
+}
+
+.readyButton:disabled {
+    color: black;
+    background-color: #7E8280;
+    border-color: #515352;
+}
